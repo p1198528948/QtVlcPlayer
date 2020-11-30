@@ -186,6 +186,7 @@
     </QtUic>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="StencilModel.cpp" />
     <ClCompile Include="WidMain.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="WidStencilList.cpp" />
@@ -218,6 +219,9 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="WidStencilList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="StencilModel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
